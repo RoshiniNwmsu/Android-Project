@@ -2,7 +2,6 @@
 
 ## Team Information
 
-- **Team Name:** TeamPulse
 - **Team Members:**
   - Ashwanth Reddy Cheemarla
   - Roshini Bikkina
