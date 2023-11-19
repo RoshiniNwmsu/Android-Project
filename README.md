@@ -17,7 +17,7 @@
 
 ### APK
 
-You can download the latest APK from the [Releases Page](https://github.com/RoshiniNwmsu/Android-Project/releases).
+You can download the latest APK from the [Releases](https://github.com/RoshiniNwmsu/Android-Project/wiki/Releases).
 
 ### Supported Devices
 
