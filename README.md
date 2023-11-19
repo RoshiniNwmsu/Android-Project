@@ -12,7 +12,7 @@
 
 ### Test Credentials
 
-- **Username:** roshini@123
+- **Username:** roshini@gmail.com
 - **Password:** 123456
 
 ### APK
