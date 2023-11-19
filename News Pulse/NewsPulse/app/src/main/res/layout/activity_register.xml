@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterPage">
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Register">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -13,11 +17,38 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="326dp"
-            android:layout_height="142dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            tools:srcCompat="@drawable/news_background" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
 
-            app:srcCompat="@drawable/news_register" />
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Provide your Email and Password to Signup"
+
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="Username"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/et_email"
@@ -26,7 +57,7 @@
             android:layout_marginTop="20dp"
             android:hint="Email"
             android:minHeight="48dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <EditText
@@ -36,7 +67,7 @@
             android:layout_marginTop="20dp"
             android:hint="Password"
             android:minHeight="48dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <EditText
@@ -46,19 +77,19 @@
             android:layout_marginTop="20dp"
             android:hint="Confirm Password"
             android:minHeight="48dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <Button
             android:id="@+id/btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="60dp"
 
             android:text="Register"
-
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -72,6 +103,7 @@
                 android:layout_height="wrap_content"
                 android:text="Already have an Account?"
                 android:textAlignment="center"
+
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
@@ -82,10 +114,12 @@
                 android:layout_marginLeft="8dp"
                 android:text="Login"
                 android:textAlignment="center"
-                android:textColor="#2196F3"
+
+                android:textColor="@color/black"
                 android:textSize="16sp" />
 
         </LinearLayout>
 
     </LinearLayout>
+
 </LinearLayout>
