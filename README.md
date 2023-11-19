@@ -2,11 +2,11 @@
 
 ## Team Information
 
-- **Team Members:**
-  - Ashwanth Reddy Cheemarla
-  - Roshini Bikkina
-  - Gopichand Chandana
-  - Tejaswini Kotha
+- **Team Members:** Group-3
+  - Ashwanth Reddy Cheemarla(S559214)
+  - Roshini Bikkina(S559200)
+  - Gopichand Chandana(S559979)
+  - Tejaswini Kotha(S560283)
 
 ## Application Information
 
